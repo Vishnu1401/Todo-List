@@ -1,0 +1,99 @@
+{
+  "topics": [
+    {
+      "id": 1,
+      "title": "What is React?",
+      "content": [
+        "React is a JavaScript library for building user interfaces.",
+        "It is maintained by Meta (formerly Facebook) and a large community.",
+        "React follows a component-based architecture, making UI development modular and reusable.",
+        "It uses a Virtual DOM to improve performance and optimize rendering."
+      ],
+      "image": "/components.png",
+      "example": {
+        "code": "function MyButton() { \n  return ( <button>I'm a button</button> ); \n}",
+        "description": "This function component returns a button element."
+      }
+    },
+    {
+      "id": 2,
+      "title": "Why use React?",
+      "content": [
+        "React allows developers to build interactive UIs efficiently.",
+        "It uses a declarative approach, making the code more predictable and easier to debug.",
+        "React's component-based structure promotes code reusability.",
+        "React has strong community support and is widely adopted in the industry."
+      ],
+      "example": {
+        "code": "const element = <h1>Hello, world!</h1>;",
+        "description": "This is a simple JSX example that renders an H1 element."
+      }
+    },
+    {
+      "id": 3,
+      "title": "Key Features of React",
+      "content": [
+        "Component-Based Architecture: UI is built using reusable components.",
+        "Virtual DOM: Enhances performance by minimizing direct DOM manipulation.",
+        "One-Way Data Binding: Data flows in a single direction, making state management easier.",
+        "Declarative UI: Automatically updates the UI when state changes.",
+        "React Hooks: Enables state and lifecycle features in functional components."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Basic Example: React Component",
+      "content": [
+        "React components are JavaScript functions that return UI elements.",
+        "Components can be functional or class-based."
+      ],
+      "example": {
+        "code": "import React from 'react';\n\nfunction Welcome() {\n  return <h1>Hello, Welcome to React!</h1>;\n}\n\nexport default Welcome;",
+        "description": "A simple React functional component that displays a welcome message."
+      }
+    },
+    {
+      "id": 5,
+      "title": "React vs Other Frontend Frameworks",
+      "content": [
+        "React is a library, while Angular and Vue are full-fledged frameworks.",
+        "React uses a Virtual DOM for efficient rendering, while Angular and Vue use different strategies.",
+        "React follows a unidirectional data flow, making state management more predictable."
+      ],
+      "comparison": {
+        "table": [
+          {
+            "Feature": "Type",
+            "React": "Library",
+            "Angular": "Framework",
+            "Vue": "Framework"
+          },
+          {
+            "Feature": "Learning Curve",
+            "React": "Easy",
+            "Angular": "Steep",
+            "Vue": "Moderate"
+          },
+          {
+            "Feature": "Speed",
+            "React": "Fast",
+            "Angular": "Moderate",
+            "Vue": "Fast"
+          },
+          {
+            "Feature": "Data Binding",
+            "React": "One-Way",
+            "Angular": "Two-Way",
+            "Vue": "Two-Way"
+          },
+          {
+            "Feature": "Community Support",
+            "React": "Large",
+            "Angular": "Large",
+            "Vue": "Medium"
+          }
+        ]
+      }
+    }
+  ]
+}
