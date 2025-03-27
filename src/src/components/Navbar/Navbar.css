@@ -1,0 +1,15 @@
+.navbar-items{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 20px 60px;
+    background:rgba(90, 36, 151, 0.226);
+}
+ul{
+    
+    list-style: none;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
